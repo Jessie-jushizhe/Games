@@ -6,7 +6,7 @@ def encode(sentence, key):
 
         elif 1<=key<=26:
             new_a=ord(l)+key
-            if new_a>ord('z'):
+            if new_a>ord('Z'):
                 new_sentence+=chr(new_a-26)
 
             else:
@@ -22,7 +22,7 @@ def decode(sentence, key):
 
         elif 1 <= key <= 26:
             new_a = ord(l) - key
-            if new_a < ord('a'):
+            if new_a < ord('A'):
                 new_sentence += chr(new_a + 26)
 
             else:
