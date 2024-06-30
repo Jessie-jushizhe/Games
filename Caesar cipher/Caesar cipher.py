@@ -31,6 +31,7 @@ def decode(sentence, key):
     return new_sentence
 
 d_or_e=input("Do you want to encode or decode your sentence? (d/e) :")
+
 if d_or_e == "d":
     sentence=input("Enter your sentence: ")
     key=int(input("Enter your key: "))
